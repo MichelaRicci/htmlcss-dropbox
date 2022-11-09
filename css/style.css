@@ -203,4 +203,25 @@ main {
 }
 
 
+/* Faq */
 
+.faq {
+    height: 700px;
+    padding-top: 50px;
+}
+
+.box-faq {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    background-color: #30a13f;
+}
+
+
+.faq-row {
+    height: 80px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
