@@ -64,3 +64,15 @@ body {
     height: 800px;
 
 }
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-section-container {
+    width: 70%;
+    height: 100vh;
+
+}
