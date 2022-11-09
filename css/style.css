@@ -14,7 +14,12 @@ body {
 
 header {
     background-color: #F3875D;
-   
+    width: 100%;
+
+    position: fixed;
+
+    z-index: 1;
+
 }
 
 .container {
@@ -29,6 +34,9 @@ header {
 
 }
 
+.border {
+    border: 2px dashed black;
+}
 
 
 /* Header */
@@ -41,6 +49,7 @@ header {
     justify-content: space-between; 
 
     border-bottom: 1px solid black;
+
 }
 
 
@@ -58,23 +67,84 @@ nav {
     height: 700px;
 }
 
-.h1 {
+.text {
     background-color: #62f35d93;
     height: 220px;
 
     border: 2px dashed black;
-    margin-top: 70px;
+    margin-top: 70px
 }
 
 
 .flex > .small-col {
-    flex-basis: 40%;
+  flex-basis: 40%;
+  background-color: yellow;
+}
+
+.flex > .large-col {
+  flex-basis: 60%;
+  background-color: dodgerblue;
+
+}
+
+.jumbotron-content > * {
     height: 400px;
-    background-color: yellow;
-  }
-  
-  .flex > .large-col {
-    flex-basis: 60%;
-    height: 450px;
-    background-color: dodgerblue;
-  }
+}
+
+
+/* Main section */
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Payment */
+
+
+.column {
+    border: 2px dashed black;
+    background-color: aquamarine;
+    height: 900px;
+
+}
+
+.flex > .column {
+    flex-basis: calc(100% / 3);
+}
+
+.box {
+    background-color: aquamarine;
+    height: 200px;
+
+    margin-top: 20px;
+}
+
+.img-text {
+    padding: 50px 0;
+    height: 550px;
+}
+
+
+
+/* Section Cards */
+
+.cards-container {
+    display: flex;
+
+    width: 100%;
+
+}
+
+.card {
+    background: #a13063;
+    display: flex;
+    justify-content: space-between;
+
+    width: calc(100% / 3);
+
+    height: 400px;
+    padding: 15px;
+
+    border: 2px dashed black;
+}
