@@ -8,75 +8,73 @@
 
 
 body {
-    font-family: sans-serif;
-    max-width: 1350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
-.border {
+header {
+    background-color: #F3875D;
+   
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
     border: 2px dashed black;
 }
 
 
+.flex {
+    display: flex;
+
+}
+
+
+
 /* Header */
 
-.top-navbar-container {
-    width: 100%;
+
+.flex-navbar{
     height: 80px;
-    position: fixed;
-
-    z-index: 1;
-
-    background-color: rgb(243, 135, 93);
-
-}
-
-.top-navbar {
-    max-width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between; 
 
-}
-
-.top-navbar-section {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.top-navbar-section > * {
-    height: 80px;
-    font-size: 14px;
+    border-bottom: 1px solid black;
 }
 
 
-.top-section-lightblue {
-    width: 100vw;
+
+nav {
+    border: 2px dashed black;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
     background-color: #B4D0E7;
-    height: 800px;
 
-    display: flex;
-    justify-content: center;
+    height: 700px;
 }
 
-.top-section-container {
-    width: 80%;
-    height: 800px;
-    
-    background-color: rgb(226, 186, 43);
+.h1 {
+    background-color: #62f35d93;
+    height: 220px;
 
-}
-
-.main-section {
-    display: flex;
-    justify-content: center;
+    border: 2px dashed black;
+    margin-top: 70px;
 }
 
 
-.main-section-container {
-    width: 100%;
-    height: 100vh;
-
-    background-color: rgb(226, 186, 43);
-
-}
+.flex > .small-col {
+    flex-basis: 40%;
+    height: 400px;
+    background-color: yellow;
+  }
+  
+  .flex > .large-col {
+    flex-basis: 60%;
+    height: 450px;
+    background-color: dodgerblue;
+  }
