@@ -77,11 +77,13 @@ ul {
 
 a {
     display: inline-block;
-    text-decoration: none;
-
-    color: #000;
 }
 
+.a-black {
+    text-decoration: none;
+    color: #000;
+
+}
 
 /* Margin */
 
@@ -242,7 +244,7 @@ main {
 }
 
 .main-container {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -278,8 +280,15 @@ main {
 
 
 .col-container > .column {
-    flex-basis: calc(100% / 3 - 24px);
+    flex-basis: calc(100% / 3 - 30px);
 }
+
+.fa-ul > li {
+    padding: 5px 0;
+
+
+}
+
 
 .box {
     /* background-color: aquamarine; */
@@ -292,6 +301,15 @@ main {
     color: #000;
 }
 
+.fa-check {
+    color: #0061FF;
+}
+
+.column > hr {
+    width: 40px;
+    padding: 0;
+    margin: 20px;
+}
 
 
 
