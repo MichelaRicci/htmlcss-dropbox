@@ -510,8 +510,6 @@ footer{
 
   margin-bottom: 50px;
 
-  border-bottom: 1px solid grey;
-
   display: flex;
 }
 
@@ -523,7 +521,7 @@ footer{
 
   padding: 50px 15px;
 
-  border: 2px dashed white;
+  /* border: 2px dashed white; */
 }
 
 .nav-col > h3 {
@@ -537,18 +535,22 @@ footer{
     padding: 10px 0;
 }
 
+
+
 .footer-bottom {
   width: 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: rgb(255, 127, 200);
-  border-bottom: 1px solid lightgrey;
+  padding-top: 40px;
+  /* background-color: rgb(255, 127, 200); */
+  border-top: 1px solid lightgrey;
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: rgb(98, 0, 255);
 }
-  
+
+
+.text-grey > .fa-solid {
+    color: lightgray;
+}
+
+
