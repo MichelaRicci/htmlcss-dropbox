@@ -115,7 +115,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .text-grey {
@@ -180,6 +180,10 @@ h3 {
 .button-primary {
     color: #fff;
     background-color: #0061FF;
+}
+
+.big-button {
+    padding: 10px 29px;
 }
 
 .text-white { 
@@ -259,7 +263,7 @@ main {
 
 
 .column {
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 
 }
 
@@ -269,10 +273,10 @@ main {
 }
 
 
-.column .members {
+.members {
     font-size: 15px;
 
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
     padding: 10px;
 
     text-align: center;
@@ -291,11 +295,28 @@ main {
 
 
 .box {
-    /* background-color: aquamarine; */
-    height: 200px;
+    border: 1px solid lightgray;
 
-    margin-top: 20px;
+    margin-top: 40px;
 }
+
+.box > * {
+    padding: 15px;
+}
+
+.box-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-col > .large-col {
+    flex-basis: 74%;
+}
+
+.box-col > .small-col {
+    flex-basis: 26%;
+}
+
 
 .fa-solid {
     color: #000;
