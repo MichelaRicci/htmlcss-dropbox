@@ -377,9 +377,11 @@ main {
     justify-content: space-between;
     flex-direction: column;
 
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3);
 
-    margin: 20px 30px;
+    margin: 20px 0;
+
+    padding: 0 20px;
 
     /* border: 2px dashed black; */
 
