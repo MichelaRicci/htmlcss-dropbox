@@ -1,6 +1,6 @@
 /* Structure Utilities */
-
-/* .border {
+/* 
+.border {
     border: 2px dashed black;
 } */
 
@@ -372,16 +372,33 @@ main {
 }
 
 .card {
-    background: #a13063;
+    /* background: #a13063; */
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
 
-    height: 400px;
-    padding: 15px;
+    margin: 20px 30px;
 
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+
+}
+
+.card-pic {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.card-text {
+    width: 100%;
+    height: 220px;
+
+}
+
+.card-pic > img {
+    width: 100%;
 }
 
 
