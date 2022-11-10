@@ -110,10 +110,20 @@ a {
     margin-top: 50px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mtb-100 {
+    margin: 100px auto;
+
+}
+
 .mtb-150 {
     margin: 150px auto;
 
 }
+
 
 
 
@@ -140,6 +150,11 @@ h3 {
 .text-grey {
     color: grey;
 }
+
+.text-purple {
+    color: #62082B;
+}
+
 
 /* Header */
 
