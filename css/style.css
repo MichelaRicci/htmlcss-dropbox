@@ -85,6 +85,9 @@ a {
 
 }
 
+
+
+
 /* Margin */
 
 .mb-20 {
@@ -518,9 +521,21 @@ footer{
   width: calc(100% / 5);
   height: 400px;
 
+  padding: 50px 15px;
+
   border: 2px dashed white;
 }
 
+.nav-col > h3 {
+    margin-bottom: 30px;
+}
+
+.a-white > li a {
+    text-decoration: none;
+    color: #fff;
+
+    padding: 10px 0;
+}
 
 .footer-bottom {
   width: 10%;
@@ -529,6 +544,7 @@ footer{
   align-items: center;
   padding: 10px;
   background-color: rgb(255, 127, 200);
+  border-bottom: 1px solid lightgrey;
 }
 
 .footer-bottom > * {
