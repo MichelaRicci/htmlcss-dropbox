@@ -430,7 +430,7 @@ main {
 
 .logo-block-container {
     display: flex;
-    background-color: #30a199;
+    /* background-color: #30a199; */
 }
 
 .square {
@@ -439,14 +439,14 @@ main {
     display: flex;
     flex-wrap: wrap;
 
-    border: 2px dashed #62082B;
+    /* border: 2px dashed #62082B; */
 }
 
 .small-square {
     width: 50%;
     height: 300px;
 
-    border: 1px dashed red;
+    border: 15px solid rgba(0,0,0,0);
 
     display: flex;
     align-items: center;
@@ -458,6 +458,28 @@ main {
     width: 50%;
 
     filter: invert(1);
+}
+
+.central-square > * {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.central-square > img {
+    width: 40%;
+    margin: 40px;
+
+}
+
+.central-square hr {
+    width: 100px;
+}
+
+
+.small-square:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    
 }
 
 /* Square colors */
@@ -495,6 +517,11 @@ main {
 .bg-yellow {
     background-color: #FFD82F;
 }
+
+.bg-lightgray {
+    background-color: #F5F5F5;
+}
+
 
 /* Faq */
 
